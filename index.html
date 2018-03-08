@@ -7,6 +7,7 @@
     <title>Hangman Game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Rammetto+One" rel="stylesheet">
     
 </head>
 <body>
@@ -14,27 +15,29 @@
         <div class="row">
             <!--Hangman Game header -->
             <div id="game-title">HANGMAN</div>
+            <!-- 80s Style Image -->
             <div id="eighty-style"><img src="assets/images/80sstyle.png" alt="80s Style"></div>
         </div>
     </div>
-    <div class="container center col-lg-6">
-            <!--Display Song Title and Singer-->
-            <!-- <div class="song-singer"></div>  -->
+    <div class="container col-12 center col-lg-6">
             <div class="row justify-content-center">
-                <div class="lwireframe">
-                    <div id="id-album-img" class="album-img"></div>              
+                <!-- Left div box -->
+                <div class="wireframe">
+                    <!-- Div to display Album Image -->
+                    <div id="id-album-img" class="album-img"></div> 
+                    <!-- Display Song Title and Band Name -->
                     <p><span id="id-songtitle"></span></p>
                     <p><span id="id-bandname"></span></p>
-                    <p><span id="id-audio"></span></p>
                 </div>
-                <div class="rwireframe">
+                <!-- Right Div Box -->
+                <div class="wireframe">
                     <p>Please press any key to get started!</p>
                     <p>Wins : <span id="id-wins"></span> </p>
-                    <p>current word</p>
+                    <p>Current word</p>
                     <p><span id="id-currentword"></span></p>
-                    <p>number of guesses remaining</p>
+                    <p>Number of guesses remaining</p>
                     <p><span id="id-guessesleft"></span></p>
-                    <p>letters already guessed</p>
+                    <p>Letters already guessed</p>
                     <p><span id="id-guessedwords"></span></p>
                 </div>
             </div>
